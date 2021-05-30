@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}
+  <title>{{ title}}</title>
+{% endblock title%}
+{% block content%}
+	<header>
+	</header>	
+	<main>
+		<div id="landing">
+			<div class="slider">
+			
+			</div>
+			
+			<img src="{{url_for('static', filename='images/landing.jpg')}}"
+			
+			<h1 style="color:blue;">test</h1>
+			
+			<div id="selections">
+				<h1>test 2</h1>
+				<p></p>
+				<div id="selection">
+				<a href="#"" class = "selection_btn"> Work </a>
+				
+				<a href="#"" class = "selection_btn"> Code </a>
+				
+			</div>
+		</div>
+		<div id="work">Work</div>
+		<div id="code">Code</div>
+	
+	
+	</main>
+	<footer>
+		
+		<div><a id = "mail" href="mailto:ozrhodes@gmail.com"> Contact: ozrhodes@gmail.com</a></div>
+		<div><a id = "LI" href="http://linkedin.com/in/martinrhodes1">Linkedin</a></div>
+		<div id="inst">Insta Link TODO</div>
+		<div id="upwork">Upwork Link TODO</div>
+		
+	</footer>
+{% endblock content%}
