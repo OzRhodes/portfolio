@@ -6,36 +6,52 @@
 	<header>
 	</header>	
 	<main>
-		<div id="landing">
-			<div class="slider">
+		<div class="slider">
 			
-			</div>
+			<img src="{{url_for ('static',filename = 'images/python.jpg')}}" class="slide-1" />	
 			
-			<img src="{{url_for('static', filename='images/landing.jpg')}}"
+			<img src="{{url_for ('static',filename = 'images/dj.jpg')}}" class="slide-2" />
 			
-			<h1 style="color:blue;">test</h1>
+			<img src="{{url_for ('static',filename = 'images/flask.jpg')}}" class="slide-3" />
 			
-			<div id="selections">
-				<h1>test 2</h1>
-				<p></p>
-				<div id="selection">
-				<a href="#"" class = "selection_btn"> Work </a>
-				
-				<a href="#"" class = "selection_btn"> Code </a>
-				
-			</div>
+			<img src="{{url_for ('static',filename = 'images/gsheet.jpg')}}" class="slide-4" />
+			
+			<img src="{{url_for ('static',filename = 'images/selenium.jpg')}}" class="slide-5" />
+
+			
 		</div>
-		<div id="work">Work</div>
-		<div id="code">Code</div>
-	
-	
+		<div class="img-cont">
+			
+			<img src="{{url_for('static', filename='images/landing.jpg')}}" class="landing" alt="Landing Page">
+			
+		</div>
+			
+		<div id="selections">
+
+				<div><a href="#"" class = "selection_btn"> Work </a></div>
+				
+				<div><a href="#"" class = "selection_btn"> Code </a></div>
+
+		</div>
+		<p></p>
+		<div id="work">
+			
+			<div class="example"><a href="App1"><img src="{{url_for ('static',filename = 'images/python.jpg')}}"/></div>
+					
+			<div class="example"><a href="App1"><img src="{{url_for ('static',filename = 'images/python.jpg')}}"/></div>
+			
+			<div class="example"><a href="App1"><img src="{{url_for ('static',filename = 'images/python.jpg')}}"/></div>
+			
+		</div>
+		<div id="code">
+			<h1>Code</h1>
+		</div>
 	</main>
 	<footer>
 		
 		<div><a id = "mail" href="mailto:ozrhodes@gmail.com"> Contact: ozrhodes@gmail.com</a></div>
 		<div><a id = "LI" href="http://linkedin.com/in/martinrhodes1">Linkedin</a></div>
 		<div id="inst">Insta Link TODO</div>
-		<div id="upwork">Upwork Link TODO</div>
 		
 	</footer>
 {% endblock content%}
