@@ -3,13 +3,6 @@
   <title>{{ title}}</title>
 {% endblock title%}
 {% block content%}
-	<header>
-	</header>	
-	<main>
-	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  	<div class="carousel-inner">
-    	<div class="carousel-item active">
-      		<img class="d-block w-100" src="{{url_for('static', filename = 'images/flask.jpg')}}" alt="Flask">
  
  
  <div class="wrapper">
@@ -30,7 +23,7 @@
 			
 			<img src="{{url_for('static', filename = 'images/flask.jpg')}}" class="slide-3" />
 			
-			<img src="{{url_for('static', filename = 'images/gsheet.jpg')}}" class="slide-4" />
+			<img src="{{url_for('static', filename = 'images/gsheets.jpg')}}" class="slide-4" />
 			
 			<img src="{{url_for('static', filename = 'images/selenium.jpg')}}" class="slide-5" />
 			
@@ -42,24 +35,25 @@
 			
 			
 		</div>
-		<div id="slider-title">
+		<div class="slider-title">
 			<h2 >What I Do<h2>
 		</div>
-			
+		
+		
 		<div id="selections">
 
-				<div><a href="#"" class = "selection_btn"> Work </a></div>
+				<div><a href="#" class = "selection_btn"> Work </a></div>
 				
-				<div><a href="#"" class = "selection_btn"> Code </a></div>
+				<div><a href="#" class = "selection_btn"> Code </a></div>
 
 		</div>
 		<div id="work">
 			
-			<div class="example"><a href="App1"><img src="{{url_for('static', filename = 'images/js.jpg')}}images/dj.jpg"/></div>
+			<div class="example"><a href="App1"><img src="{{url_for('static', filename = 'images/js.jpg')}}"/></div>
 					
-			<div class="example"><a href="App1"><img src="{{url_for('static', filename = 'images/js.jpg')}}images/dj.jpg"/></div>
+			<div class="example"><a href="App1"><img src="{{url_for('static', filename = 'images/js.jpg')}}"/></div>
 			
-			<div class="example"><a href="App1"><img src="{{url_for('static', filename = 'images/js.jpg')}}images/dj.jpg"/></div>
+			<div class="example"><a href="App1"><img src="{{url_for('static', filename = 'images/js.jpg')}}"/></div>
 			
 		</div>
 		<div id="code">
