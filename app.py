@@ -8,7 +8,7 @@ posts = [
 	{'title': 'Post1',
 	'auth': 'Oz'},
 	{'title': 'Post2',
-	'auth': 'Andy'}
+	'auth': 'Oz'}
 ]
 
 #@app.route('/')
