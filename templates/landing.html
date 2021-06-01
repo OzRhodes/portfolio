@@ -10,37 +10,40 @@
   	<div class="carousel-inner">
     	<div class="carousel-item active">
       		<img class="d-block w-100" src="{{url_for('static', filename = 'images/flask.jpg')}}" alt="Flask">
-    	</div>
-    	<div class="carousel-item">
-      		<img class="d-block w-100" src="{{url_for('static', filename = 'images/dj.jpg')}}" alt="Django">
-    	</div>
-		<div class="carousel-item">
-      		<img class="d-block w-100" src="{{url_for('static', filename = 'images/gsheets.jpg')}}" alt="GSheets">
-    	</div>
-		<div class="carousel-item">
-      		<img class="d-block w-100" src="{{url_for('static', filename = 'images/selenium.jpg')}}" alt="Selenium">
-    	</div>
-   	 	<div class="carousel-item">
-      		<img class="d-block w-100" src="{{url_for('static', filename = 'images/python.jpg')}}" alt="Python">
-    	</div>
-  	</div>
-	</div>
-		<div id="landing">	
-			<img src="{{url_for('static', filename='images/landing.jpg')}}">
-			
-			<h1>test</h1>
-			<h1>test 2</h1>
-			
-			<img src="{{url_for ('static',filename = 'images/gsheet.jpg')}}" class="slide-4" />
-			
-			<img src="{{url_for ('static',filename = 'images/selenium.jpg')}}" class="slide-5" />
-
-			
-		</div>
+ 
+ 
+ <div class="wrapper">
+	<header>
+	</header>
+	<main>
+		
 		<div class="img-cont">
 			
-			<img src="{{url_for('static', filename='images/landing.jpg')}}" class="landing" alt="Landing Page">
+			<img src="{{url_for('static', filename = 'images/landing.jpg')}}" class="landing" alt="Landing Page">
 			
+		</div>
+			<div class="slider">
+			
+			<img src="{{url_for('static', filename = 'images/python.jpg')}}" class="slide-1" />	
+			
+			<img src="{{url_for('static', filename = 'images/dj.jpg')}}" class="slide-2"/>
+			
+			<img src="{{url_for('static', filename = 'images/flask.jpg')}}" class="slide-3" />
+			
+			<img src="{{url_for('static', filename = 'images/gsheet.jpg')}}" class="slide-4" />
+			
+			<img src="{{url_for('static', filename = 'images/selenium.jpg')}}" class="slide-5" />
+			
+			<img src="{{url_for('static', filename = 'images/html.jpg')}}" class="slide-6" />
+			
+			<img src="{{url_for('static', filename = 'images/css.jpg')}}" class="slide-7" />
+			
+			<img src="{{url_for('static', filename = 'images/js.jpg')}}" class="slide-8" />
+			
+			
+		</div>
+		<div id="slider-title">
+			<h2 >What I Do<h2>
 		</div>
 			
 		<div id="selections">
@@ -50,14 +53,13 @@
 				<div><a href="#"" class = "selection_btn"> Code </a></div>
 
 		</div>
-		<p></p>
 		<div id="work">
 			
-			<div class="example"><a href="App1"><img src="{{url_for ('static',filename = 'images/python.jpg')}}"/></div>
+			<div class="example"><a href="App1"><img src="{{url_for('static', filename = 'images/js.jpg')}}images/dj.jpg"/></div>
 					
-			<div class="example"><a href="App1"><img src="{{url_for ('static',filename = 'images/python.jpg')}}"/></div>
+			<div class="example"><a href="App1"><img src="{{url_for('static', filename = 'images/js.jpg')}}images/dj.jpg"/></div>
 			
-			<div class="example"><a href="App1"><img src="{{url_for ('static',filename = 'images/python.jpg')}}"/></div>
+			<div class="example"><a href="App1"><img src="{{url_for('static', filename = 'images/js.jpg')}}images/dj.jpg"/></div>
 			
 		</div>
 		<div id="code">
@@ -71,4 +73,5 @@
 		<div id="inst">Insta Link TODO</div>
 		
 	</footer>
+</div>
 {% endblock content%}
