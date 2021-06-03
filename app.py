@@ -17,6 +17,17 @@ def index():
 	title = "Oz Rhodes - Home"
 	#return "<h1>test</h1>"
 	return render_template('index.html', title = title)
+	
+@app.route('/')
+@app.route('/finance-bot')
+def finance_bot():
+	title= "Oz Rhodes - Finance Bot"
+	
+	labels=['mon','tue','wed','thu','fri']
+	data = [1,2,4,3,5]
+	
+	return render_template('finance-bot.html', title = title, labels = labels, data = data)
+	
 
 #@app.route('/')
 @app.route('/blog')
