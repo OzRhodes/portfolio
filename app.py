@@ -26,7 +26,7 @@ def finance_bot():
 	labels=['mon','tue','wed','thu','fri']
 	data = [1,2,4,3,5]
 	
-	return render_template('finance-bot.html', title = title, labels = labels, data = data)
+	return render_template('financechart.html', title = title, labels = labels, data = data)
 	
 
 #@app.route('/')
