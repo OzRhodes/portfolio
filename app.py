@@ -1,7 +1,7 @@
 from flask import Flask, render_template, url_for	
 import sqlite3
 import os.path
-import websocket, json
+import websocket
 from datetime import datetime
 
 app = Flask(__name__)
