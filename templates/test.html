@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}
+  <title>{{ title}}</title>
+{% endblock title%}
+{% block content%}
+ 
+	
+ <div class="wrapper">
+	<header>
+	</header>
+	<main>
+	<div class="img-cont">
+		<div class="test">
+		<img src="{{url_for('static', filename = 'images/landing.jpg')}}" class="landing" alt="Landing Page">
+		</div>
+	</div>
+	</main>
+{% endblock content%}

@@ -11,9 +11,9 @@
 	<main>
 		
 		<div class="img-cont">
-			
+			<div>
 			<img src="{{url_for('static', filename = 'images/landing.jpg')}}" class="landing" alt="Landing Page">
-			
+			</div>
 		</div>
 			<div class="slider">
 			
@@ -42,29 +42,40 @@
 		
 		<div id="selections">
 
-				<div><a href="#" class = "selection_btn"> Work </a></div>
+				<div><a href="http://linkedin.com/in/martinrhodes1" target="_blank" class = "selection_btn"> About </a></div>
 				
-				<div><a href="#" class = "selection_btn"> Code </a></div>
+				<div><a href="https://github.com/OzRhodes" target="_blank" class = "selection_btn"> Code </a></div>
 
 		</div>
 		<div id="work">
 			
-			<div class="example"><a href="App1"><img src="{{url_for('static', filename = 'images/js.jpg')}}"/></div>
+			<div class="example"><a href="App1" target="_blank"><img src="{{url_for('static', filename = 'images/chart.png')}}"/>
+				<div class="image-title">
+				<h3 >Finance Bot</h3>
+				</div>
+			</div>
 					
-			<div class="example"><a href="App1"><img src="{{url_for('static', filename = 'images/js.jpg')}}"/></div>
+			<div class="example"><a href="www.ozrhodes.com" target="_blank"><div><img src="{{url_for('static', filename = 'images/OzRhodes.png')}}"/></div>
+				<div class="image-title">
+				<h3>Home Page</h3> 
+				</div>
+			</div> app
 			
-			<div class="example"><a href="App1"><img src="{{url_for('static', filename = 'images/js.jpg')}}"/></div>
+			<div class="example"><a href="www.sailingeclipse.com" target="_blank"><img src="{{url_for('static', filename = 'images/wordpress.png')}}"/>
+				<div class="image-title">
+				<h3>Wordpress</h3>
+				</div>
+			</div>
 			
 		</div>
-		<div id="code">
-			<h1>Code</h1>
-		</div>
+
 	</main>
 	<footer>
-		
-		<div><a id = "mail" href="mailto:ozrhodes@gmail.com"> Contact: ozrhodes@gmail.com</a></div>
-		<div><a id = "LI" href="http://linkedin.com/in/martinrhodes1">Linkedin</a></div>
-		<div id="inst">Insta Link TODO</div>
+	<div id="footer-logo">
+		<div class="connect"><a  href="mailto:ozrhodes@gmail.com"><img src="{{url_for('static', filename = 'images/email.png')}}"/></div>
+		<div class="connect"><a  href="http://linkedin.com/in/martinrhodes1"><img src="{{url_for('static', filename = 'images/LI.jpeg')}}"/></div>
+	</div>
+
 		
 	</footer>
 </div>
